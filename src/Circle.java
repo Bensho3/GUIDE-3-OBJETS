@@ -31,7 +31,7 @@ public class Circle {
         this.color = color;
     }
 
-    public Float circleArea()
+    public Float calculeArea()
     {
         area= 3.1415F * (radio*2);
         return area;
