@@ -1,13 +1,12 @@
 public class Circle {
     public Float radio = 1.0F;
 
-    public String color = 'Red';
+    public String color = "Red";
 
     public Float area;
 
     public Circle()
     {
-
     }
 
     public Circle(Float radio, String color, Float area) {
@@ -32,7 +31,7 @@ public class Circle {
         this.color = color;
     }
 
-    public Float circleArea(Float radio)
+    public Float circleArea()
     {
         area= 3.1415F * (radio*2);
         return area;
@@ -40,7 +39,7 @@ public class Circle {
 
     public void showCircle()
     {
-        System.out.printf("Color:%s,Radio:%.1f,Area:%.1f", color,radio,area);
+        System.out.printf("Showing Circle\nColor:[%s] ,Radio:[%.1f]\nArea:[%.1f]", color,radio,area);
     }
 
 }
