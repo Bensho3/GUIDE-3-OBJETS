@@ -39,7 +39,7 @@ public class Circle {
 
     public void showCircle()
     {
-        System.out.printf("Showing Circle\nColor:[%s] ,Radio:[%.1f]\nArea:[%.1f]", color,radio,area);
+        System.out.printf("\nShowing Circle\nColor:[%s] ,Radio:[%.1f]\nArea:[%.1f]\n", color,radio,area);
     }
 
 }

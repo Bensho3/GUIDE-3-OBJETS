@@ -34,13 +34,14 @@ public class Cylindre extends Circle {
 
 
     public void showCylindre() {
-        System.out.printf("Showing Cylindre:\nColor:[%s] ,Radio:[%.1f]\nArea:[%.1f], Height:[%.1f], Volume:[%.1f}", color, radio, area, height, volume);
+        System.out.printf("\nShowing Cylindre:\nColor:[%s] ,Radio:[%.1f]\nArea:[%.1f], Height:[%.1f], Volume:[%.1f}\n", color, radio, area, height, volume);
     }
 
     @Override
     public Float calculeArea()
     {
     //2π×radius×height + 2×areaBase
-        area = (2*3.141592F) * radio * height + ()
+        area = (2*3.141592F) * super.getRadio() * height + (2*super.calculeArea());
+        return area;
     }
 }

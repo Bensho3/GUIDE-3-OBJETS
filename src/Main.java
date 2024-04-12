@@ -6,6 +6,11 @@ public class Main {
     circulin.calculeArea();
 
     circulin.showCircle();
+    Cylindre cilindrin = new Cylindre();
+
+    cilindrin.calculeVolume();
+    cilindrin.calculeArea();
+    cilindrin.showCylindre();
 
         }
     }
