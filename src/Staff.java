@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class Staff {
+public class Staff extends Person{
+
+    private Float salary;
+
+    private String workingHours;
 }
